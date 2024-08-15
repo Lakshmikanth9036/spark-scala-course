@@ -1,0 +1,28 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Scala
+*.class
+*.log
+*.tasty
+
+# SBT
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# General
+*.log
+*.cache
+.history
