@@ -1,13 +1,14 @@
+package com.sundogsoftware.spark
+
 import org.apache.log4j._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types.{IntegerType, StringType, StructType}
 
 /** Find the superhero with the most co-appearances. */
-object Demo {
+object MostObscureSuperheroes {
 
   private case class SuperHeroNames(id: Int, name: String)
-
   case class SuperHero(value: String)
 
   /** Our main function where the action happens */
